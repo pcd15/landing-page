@@ -55,6 +55,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     padding: 100px;
+    color: #e5e7eb;
 }
 
 .img {
@@ -97,13 +98,65 @@ h1 {
     width: 600px;
     text-align: center;
     display: inline-block;
+    color: #e5e7eb;
 }
 
 .bottom {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 80px;
-    background-color: #1f2937;;
+    gap: 40px;
+    background-color: #1f2937;
     margin: 0;
+}
+
+.takeoff {
+    display: flex;
+    gap: 40px;
+    height: 300px;
+}
+
+.rocket {
+    width: 200px;
+    height: auto;
+    transform: rotate(20deg);
+    align-self: flex-start;
+}
+
+.line {
+    width: 300px;
+    height: auto;
+    transform: rotate(30deg);
+    align-self: flex-end;
+}
+
+.heart {
+    margin: 50px;
+}
+
+.middle-container {
+    display: flex;
+    background-color: #e5e7eb;
+    padding: 20px 0;
+    gap: 40px;
+    margin: 0;
+}
+
+.align {
+    margin: 0 150px;
+}
+
+.moon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    margin-top: -70px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #e5e7eb;
+    font-family: 'Trebuchet MS', sans-serif;
 }
