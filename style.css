@@ -121,6 +121,7 @@ h1 {
     height: auto;
     transform: rotate(20deg);
     align-self: flex-start;
+    color: #1f2937;
 }
 
 .line {
@@ -128,6 +129,7 @@ h1 {
     height: auto;
     transform: rotate(30deg);
     align-self: flex-end;
+    color: #1f2937;
 }
 
 .heart {
